@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-snowpack-app" />
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <title>Snake</title>
+  </head>
+  <body>
+    <div class="container" onclick='document.getElementById("txt").focus();'>
+      <div id="menu">
+          <div class="menu-item">
+              <span id="menu-text">Appuyer sur ENTRER pour jouer <br> ESC pour mettre pause en pleine partie
+              </span>
+          </div>
+      </div>
+      <div id="map" style="display: none;">
+      </div>
+  </div>
+  <p id="point" style="margin-right: 10em">Le score de Blackmamba est de 0</p>
+  <input style="opacity:0;width:0;height:0" id="txt" type="text">
+
+    
+
+
+
+
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="module" src="/dist/index.js"></script>
+  </body>
+</html>

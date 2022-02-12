@@ -1,0 +1,74 @@
+html,body {
+  height: 100%;
+  background-image: url("snake.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+body {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 90vmin;
+  max-height: 90vmin;
+  width: 100%;
+  border: 5px solid #000000;
+  margin: auto;
+  overflow: hidden;
+  border-width: 20px;
+  background-color: green;
+  opacity: 90%;
+}
+#menu,
+#map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+}
+#menu {
+  background: green;
+}
+.menu-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+.pixel {
+  width: 10%;
+  padding-bottom: 10%;
+  float: left;
+}
+.snake-body {
+  z-index: 5;
+  position: relative;
+  background-image: url("serpent.png");
+  background-size: 80px;
+}
+
+.nourriture {
+  background-image: url("pomme.png");
+  background-size: 80px;
+}
+
+#point {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 20%;
+  font-size: xx-large;
+}
